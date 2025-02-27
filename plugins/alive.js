@@ -15,7 +15,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Generate system status message
         const status = `╭━━〔 *DINUWA-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
+┃◈┃• *⏳Uptim𝙚*:  ${runtime(process.uptime())} 
 ┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ┃◈┃• *⚙️ HostName*: ${os.hostname()}
 ┃◈┃• *👨‍💻 Owner*: ᴍʀ ᴅɪɴᴜᴡᴀ
